@@ -1,5 +1,5 @@
 // Navbar.js
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const Navouter = styled.div`
@@ -60,26 +60,27 @@ const Navbar = () => {
       <NavContainer>
         <Nav>
           <div className="logo">
-            <img src="assets/logo.svg" />
+            <img src="assets/logo.svg"
+              alt="img" />
           </div>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="/">About</a>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <a href="/">Skills</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="/">Services</a>
             </li>
             <li>
-              <a href="#">Testimonial</a>
+              <a href="/">Testimonial</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="/">Contact</a>
             </li>
           </ul>
         </Nav>

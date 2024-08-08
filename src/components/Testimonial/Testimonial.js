@@ -156,14 +156,14 @@ const Testimonial = () => {
                     </svg>
                     <h3>Best Creative Agency!</h3>
                   </div>
-                  <p class="description">
+                  <p className="description">
                     Lectus quis sit diam aenean. Neque sed blandit sed at.
                     Adipiscing eu aenean viverra nunc. Lacus ornare massa
                     scelerisque feugiat pretium diam massa purus. Ultrices
                     elementum mattis magna cras viverra nisl enim.
                   </p>
                   <svg
-                    class="slider-line"
+                    className="slider-line"
                     xmlns="http://www.w3.org/2000/svg"
                     height="33"
                     viewBox="0 0 630 33"
@@ -172,10 +172,10 @@ const Testimonial = () => {
                     <path d="M630 1H100L70 31V1H0" stroke="#909090"></path>
                   </svg>
                   <div className="detail">
-                  <img class="testimonial_client_img" src="assets/testimonial_client_img3.jpg" alt="testimonial_client_img1" />
+                  <img className="testimonial_client_img" src="assets/testimonial_client_img3.jpg" alt="testimonial_client_img1" />
                   <div className="client">
-                                <h3 class="client-name">Andrew Lewis</h3>
-                                <p class="studio">Oria Studio</p>
+                                <h3 className="client-name">Andrew Lewis</h3>
+                                <p className="studio">Oria Studio</p>
                             </div>
                   </div>
                 </TestimonialCard>

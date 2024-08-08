@@ -87,7 +87,8 @@ function Skills() {
             {
                 [1, 2, 3, 4, 5, 6, 7, 8]?.map(res=>(
                     <div className="Skill-box">
-                      <img src="assets/wordpress.png" />
+                      <img src="assets/wordpress.png"
+              alt="img" />
                       <div class="counter">
                         <h3>
                           98

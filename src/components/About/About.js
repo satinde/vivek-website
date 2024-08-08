@@ -125,11 +125,13 @@ function About() {
     <Outer>
       <Container>
         <div className="left">
-          <img src="assets/girl-img2.png" />
+          <img src="assets/girl-img2.png"
+              alt="img" />
           <div className="hwlo">
             <img
               className="years-img"
               src="assets/years-img.png"
+              alt="img"
             />
             <div className="digit">6</div>
             <div className="circle-text">
@@ -141,7 +143,8 @@ function About() {
         <div className="right">
           <div className="award">
             <div className="award-circle">
-              <img src="assets/trophy.png" />
+              <img src="assets/trophy.png"
+              alt="img" />
             </div>
             <div class="bottom">
               <h3>Independent Of The Year</h3>
@@ -160,7 +163,7 @@ function About() {
             turpis diam arcu rutrum interdum aliquet iaculis.
           </p>
           <p className="explore-me">
-            <a href="#">Explore Me</a>
+            <a href="/">Explore Me</a>
             <svg
               class="expo-arrow"
               xmlns="http://www.w3.org/2000/svg"

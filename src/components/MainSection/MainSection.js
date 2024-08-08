@@ -162,7 +162,8 @@ function MainSection() {
             <h1>
               <mark>Web</mark> Designer.
             </h1>
-            <img src="assets/girl.png" />
+            <img src="assets/girl.png"
+              alt="img" />
           </div>
         </div>
         <div className="item2"></div>
@@ -174,6 +175,7 @@ function MainSection() {
           <img
             className="flower"
             src="assets/flower.png"
+              alt="img"
           />
           <h2 class="Freelance">
             A <span>Freelance Designer and Developer based in USA.</span> I
